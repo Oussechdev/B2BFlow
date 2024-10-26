@@ -9,8 +9,10 @@
         <option value="$PROJECT_DIR$/Authentification-Service/pom.xml" />
         <option value="$PROJECT_DIR$/Payement-Service/pom.xml" />
         <option value="$PROJECT_DIR$/Fournisseur-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/MS_Paiement/pom.xml" />
       </list>
     </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

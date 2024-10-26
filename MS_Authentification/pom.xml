@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>Client-Service</artifactId>
+    <artifactId>MS_Authentification</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Client-Service</name>
-    <description>Client-Service</description>
+    <name>Authentification-Service</name>
+    <description>Authentification-Service</description>
     <url/>
     <licenses>
         <license/>

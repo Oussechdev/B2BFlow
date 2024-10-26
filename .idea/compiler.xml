@@ -6,21 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Stock-Service" />
-        <module name="Authentification-Service" />
-        <module name="Fournisseur-Service" />
+        <module name="MS_Stock" />
+        <module name="MS_Client" />
+        <module name="MS_Authentification" />
+        <module name="MS_Paiement" />
         <module name="Payement-Service" />
-        <module name="Client-Service" />
+        <module name="MS_Fournisseur" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Authentification-Service" options="-parameters" />
-      <module name="Client-Service" options="-parameters" />
-      <module name="Fournisseur-Service" options="-parameters" />
+      <module name="MS_Authentification" options="-parameters" />
+      <module name="MS_Client" options="-parameters" />
+      <module name="MS_Fournisseur" options="-parameters" />
+      <module name="MS_Paiement" options="-parameters" />
+      <module name="MS_Stock" options="-parameters" />
       <module name="Payement-Service" options="-parameters" />
-      <module name="Stock-Service" options="-parameters" />
     </option>
   </component>
 </project>
