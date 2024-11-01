@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MS_Stock" />
-        <module name="MS_Client" />
-        <module name="MS_Authentification" />
         <module name="MS_Paiement" />
         <module name="Payement-Service" />
-        <module name="MS_Fournisseur" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MS_Authentification" target="17" />
+      <module name="MS_Client" target="17" />
+      <module name="MS_Fournisseur" target="17" />
+      <module name="MS_Stock" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
