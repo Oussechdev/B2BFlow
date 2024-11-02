@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.example</groupId>
-	<artifactId>Produit-Service</artifactId>
+	<artifactId>MS_Produit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Produit-Service</name>
 	<description>Produit-Service</description>

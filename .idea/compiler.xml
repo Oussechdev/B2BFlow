@@ -2,27 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MS_Authentification" />
+        <module name="MS_Fournisseur" />
+        <module name="MS_Stock" />
+        <module name="MS_Client" />
+        <module name="MS_Messagerie" />
         <module name="MS_Paiement" />
+        <module name="MS_Commande" />
         <module name="Payement-Service" />
+        <module name="MS_Produit" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MS_Authentification" target="17" />
-      <module name="MS_Client" target="17" />
-      <module name="MS_Fournisseur" target="17" />
-      <module name="MS_Stock" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MS_Authentification" options="-parameters" />
       <module name="MS_Client" options="-parameters" />
+      <module name="MS_Commande" options="-parameters" />
       <module name="MS_Fournisseur" options="-parameters" />
+      <module name="MS_Messagerie" options="-parameters" />
       <module name="MS_Paiement" options="-parameters" />
+      <module name="MS_Produit" options="-parameters" />
       <module name="MS_Stock" options="-parameters" />
       <module name="Payement-Service" options="-parameters" />
     </option>
