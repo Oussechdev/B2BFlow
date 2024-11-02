@@ -3,8 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/MS_Authentification/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MS_Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MS_Commande/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MS_Fournisseur/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MS_Messagerie/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MS_Paiement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MS_Produit/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MS_Stock/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Payement-Service/src/main/java" charset="UTF-8" />
   </component>
