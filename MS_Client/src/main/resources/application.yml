@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: CLIENTSERVICE  # Assure-toi que ce nom correspond à celui dans Eureka

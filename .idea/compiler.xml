@@ -8,10 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MS_Authentification" />
+        <module name="Config-Service" />
         <module name="MS_Fournisseur" />
         <module name="MS_Stock" />
+        <module name="Gateway-Service" />
         <module name="MS_Client" />
         <module name="MS_Messagerie" />
+        <module name="Discovery-Service" />
         <module name="MS_Paiement" />
         <module name="MS_Commande" />
         <module name="Payement-Service" />
@@ -21,6 +24,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config-Service" options="-parameters" />
+      <module name="Discovery-Service" options="-parameters" />
+      <module name="Gateway-Service" options="-parameters" />
       <module name="MS_Authentification" options="-parameters" />
       <module name="MS_Client" options="-parameters" />
       <module name="MS_Commande" options="-parameters" />
