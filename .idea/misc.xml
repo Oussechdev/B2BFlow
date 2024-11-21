@@ -17,6 +17,9 @@
         <option value="$PROJECT_DIR$/MS_Messagerie/pom.xml" />
         <option value="$PROJECT_DIR$/MS_Produit/pom.xml" />
         <option value="$PROJECT_DIR$/MS_Stock/pom.xml" />
+        <option value="$PROJECT_DIR$/Gateway-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Discovery-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Config-Service/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

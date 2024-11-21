@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: fournisseur-service
+          uri: lb://FOURNISSEURSERVICE  # Modifié pour correspondre au nom exact dans Eureka
+          predicates:
+            - Path=/fournisseurs/**  # La route pour accéder aux données des fournisseurs
+        - id: client-service
+          uri: lb://CLIENTSERVICE
+          predicates:
+            - Path=/clients/**

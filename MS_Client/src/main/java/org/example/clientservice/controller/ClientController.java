@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/clients")
 public class ClientController {
 
     private final ClientService clientService;
@@ -19,21 +20,21 @@ public class ClientController {
     }
 
     // Endpoint pour ajouter un client
-    @PostMapping("/addClient")
+    @PostMapping("/add")
     public ResponseEntity<Client> addClient(@RequestBody Client client) {
         Client savedClient = clientService.addClient(client);
         return ResponseEntity.ok(savedClient);
     }
 
     // Endpoint pour obtenir tous les clients
-    @GetMapping("/allClients")
+    @GetMapping("/all")
     public ResponseEntity<List<Client>> getAllClients() {
         List<Client> clients = clientService.getAllClients();
         return ResponseEntity.ok(clients);
     }
 
     // Endpoint pour obtenir un client par ID
-    @GetMapping("/client/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Client> getClientById(@PathVariable int id) {
         Client client = clientService.getClientById(id);
         return client != null ? ResponseEntity.ok(client) : ResponseEntity.notFound().build();
