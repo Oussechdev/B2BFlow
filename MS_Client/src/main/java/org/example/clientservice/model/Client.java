@@ -22,4 +22,12 @@ public class Client {
     private String telephone;
     private String adresse;
     private String mail;
+
+    public Long getId() {
+        return (long) id;
+    }
+
+    public void setId(Long id) {
+        this.id = Math.toIntExact(id);
+    }
 }

@@ -10,15 +10,16 @@
         <module name="MS_Authentification" />
         <module name="Config-Service" />
         <module name="MS_Fournisseur" />
-        <module name="MS_Stock" />
         <module name="Gateway-Service" />
-        <module name="MS_Client" />
         <module name="MS_Messagerie" />
         <module name="Discovery-Service" />
         <module name="MS_Paiement" />
+        <module name="MS_Produit" />
+        <module name="MS_Stock" />
+        <module name="MS_Facture" />
+        <module name="MS_Client" />
         <module name="MS_Commande" />
         <module name="Payement-Service" />
-        <module name="MS_Produit" />
       </profile>
     </annotationProcessing>
   </component>
