@@ -2,11 +2,17 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: fournisseur-service
-          uri: lb://FOURNISSEURSERVICE  # Modifié pour correspondre au nom exact dans Eureka
+        - id: produit-service
+          uri: lb://PRODUIT-SERVICE
           predicates:
-            - Path=/fournisseurs/**  # La route pour accéder aux données des fournisseurs
+            - Path=/PRODUIT-SERVICE/produits/**
+
         - id: client-service
-          uri: lb://CLIENTSERVICE
+          uri: lb://CLIENT-SERVICE
           predicates:
-            - Path=/clients/**
+            - Path=/CLIENT-SERVICE/clients/**
+
+        - id: fournisseur-service
+          uri: lb://FOURNISSEUR-SERVICE
+          predicates:
+            - Path=/FOURNISSEUR-SERVICE/fournisseurs/**
