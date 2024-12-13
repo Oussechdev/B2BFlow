@@ -30,6 +30,7 @@
       <module name="MS_Authentification" options="-parameters" />
       <module name="MS_Client" options="-parameters" />
       <module name="MS_Commande" options="-parameters" />
+      <module name="MS_Facture" options="-parameters" />
       <module name="MS_Fournisseur" options="-parameters" />
       <module name="MS_Messagerie" options="-parameters" />
       <module name="MS_Paiement" options="-parameters" />
